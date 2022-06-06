@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator </title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 350px;
+            height: 500px;
+            border: 5px solid black;
+            border-radius: 0% 15% 0% 15%; 
+            background-color: aqua;
+        }
+        .btn0{
+            
+            height: 70px;
+            width: 300px;
+            margin-left: 15px;
+            font-size: 50px;
+            color: orange;
+            background-color: black;
+        }
+        .btn1{
+            background-color: grey;
+            border-radius: 70%;
+            margin-left: 15px;
+            font-size: 30px;
+            height: 60px;
+            width: 60px;
+        }
+        .btn1:hover{
+            background-color: rgb(140, 231, 66);
+           
+        }
+        .btn2{
+            background-color: red;
+            border-radius: 70%;
+            margin-left: 15px;
+            font-size: 30px;
+            height: 60px;
+            width: 60px;
+        }
+    </style>
+</head>
+<body>
+    <form name="form">
+    <div class="container" name="container">
+    <h1>Avinash</h1>
+    <input type="" name="textview" class="btn0" id="btn0"  value="0">
+    <br><br>
+    <input type="button" class="btn1" onclick="bat('1')"  value="1">
+    <input type="button" class="btn1" onclick="bat('2')" value="2">
+    <input type="button" class="btn1" onclick="bat('3')" value="3">
+    <input type="button" class="btn1" onclick="bat('-')" value="-">
+    <br><br>
+    <input type="button" class="btn1" onclick="bat('4')" value="4">
+    <input type="button" class="btn1" onclick="bat('5')" value="5">
+    <input type="button" class="btn1" onclick="bat('6')" value="6">
+    <input type="button" class="btn1" onclick="bat('+')" value="+">
+    <br><br>
+    <input type="button" class="btn1" onclick="bat('7')" value="7">
+    <input type="button" class="btn1" onclick="bat('8')" value="8">
+    <input type="button" class="btn1" onclick="bat('9')" value="9">
+    <input type="button" class="btn1" onclick="bat('*')" value="*">
+    <br><br>
+    <input type="button" class="btn1" onclick="bat('0')" value="0">
+    <input type="button" class="btn1" onclick="ans('=')" value="=">
+    <input type="button" class="btn1" onclick="bat('.')" value=".">
+    <input type="button" class="btn2" onclick="clean()" value="C">
+
+
+    </div>
+    </form>
+    <script  src="calculator.js">
+    
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tic Tac  Toe</title>
+    <link rel="stylesheet" href="index1.css" >
+</head>
+<body>
+
+    <div id="main">
+        <h1><u> Tic Tac Toe<br>Game:</u></h1>
+        <br>
+       <h2> <b>Player:-1</b></h2><br><input type="text" id="player1"><br><br>
+       <h2> <b>Player:-2</b></h2><br><input type="text" id="player2"><br>
+        <br>
+        <button onclick="start()">Start</button>
+        <br><br>
+        <footer><h4> Created By AvinasH </h4></footer>
+    </div>
+
+    
+    <div class="game">
+    <div class="container">
+    <div id='0' onclick="getVal('0')"></div>
+    <div id='1' onclick="getVal('1')"></div>
+    <div id='2' onclick="getVal('2')"></div>
+    <div id='3' onclick="getVal('3')"></div>
+    <div id='4' onclick="getVal('4')"></div>
+    <div id='5' onclick="getVal('5')"></div>
+    <div id='6' onclick="getVal('6')"></div>
+    <div id='7' onclick="getVal('7')"></div>
+    <div id='8' onclick="getVal('8')"></div>
+    </div>
+    <br><br>
+    <button onclick="restart()">Restart</button>
+    </div>
+
+
+        <script src="index1.js">
+            
+        </script>
+</body>
+</html>
